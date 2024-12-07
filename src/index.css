@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+h3{
+  text-align: center;
+
+}
+
+.square {
+  background-color:#97c7c7;
+  border: 1px solid #020c0d;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.square-container {
+  box-sizing: border-box;
+  position: relative;
+}
